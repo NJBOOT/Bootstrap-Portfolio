@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -31,21 +31,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -56,8 +41,23 @@
     <div class="container" id="main-container">
         <div class="row">
             <div class="col-sm">
+                <div class="card card-one" style="width: 25rem;">
+                    <div class="card-header">
+                        Nico Barbarese
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">215.480.1651 | nicobarbarese@gmail.com</li>
+                        <li class="list-group-item"><a href="https://github.com/NJBOOT" target="_blank">Github</a></li>
+                        <li class="list-group-item"><a href="https://www.linkedin.com/in/nico-barbarese-b242a565" target="_blank">LinkedIn</a></li>
+                        <li class="list-group-item"><a href="assets/Barbarese.pdf" download="Barbarese-Resume" target="_blank">Download My Resume</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
                 <header>
-                    <h1>Contact</h1>
+                    <h3 class="contact-header">Contact</h3>
                 </header>
                 <form id="contact-form">
                     <ul>
@@ -72,7 +72,7 @@
                         </li>
                         <li>
                             <label for="message">Message</label>
-                            <textarea id="message" name="message" required="required">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda eius explicabo similique ea cupiditate corrupti quod est, error optio itaque quaerat repellendus repellat porro, dolore necessitatibus. Iure illum molestiae vero.</textarea>
+                            <textarea id="message" name="message" required="required"></textarea>
                         </li>
                     </ul>
                     <input type="submit">

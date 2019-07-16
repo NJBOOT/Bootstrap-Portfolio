@@ -9,7 +9,7 @@ body {
 * {
     box-sizing: border-box;
   }
-
+  
 #image-one {
     float: left;
     margin: 20px;
@@ -49,9 +49,21 @@ footer {
   }
 .images {
     width: 50%;
+    border: 5px solid #777777 
 }
 
 /* contact page */
+
+.card-one {
+  margin-bottom: 20px;
+}
+
+.card-header {
+  font-weight: bold;
+}
+a {
+  color:#777777
+}
 
 #contact-form ul {
     margin-bottom: 20px;
@@ -83,7 +95,7 @@ footer {
   }
   
   input[type=submit] {
-    padding: 10px 30px;
+    padding: 10px 20px;
     font-size: 18px;
     color: #ffffff;
     cursor: pointer;
